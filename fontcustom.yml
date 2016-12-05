@@ -50,9 +50,9 @@ input:
  # templates: my/templates
 
 output:
- fonts: app/assets/fonts
- css: app/assets/stylesheets
- preview: app/views/styleguide
+ fonts: /path/to/project/app/fonts
+ css: /path/to/project/app/styles
+ preview: /path/to/project/app/fonts
  # my-custom-template.yml: path/to/template/output
 
 
@@ -71,7 +71,7 @@ output:
 # -----------------------------------------------------------------------------
 
 templates:
-- scss-rails
+- scss
 - preview
 #- my-custom-template.yml
 
